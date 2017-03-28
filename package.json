@@ -1,0 +1,11 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "Microservice that allows file upload and then outputs the file size",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LS8",
+  "license": "ISC"
+}
