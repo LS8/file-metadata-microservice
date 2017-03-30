@@ -1,0 +1,9 @@
+html
+  head
+    title File Size
+  body
+    p This site lets you select and upload file and then tells you the size of the selected file.
+    form(action='/filesize' method='post' name='file-form' enctype="multipart/form-data")
+      input(type='file' name="filefield")
+      button(type='submit') Upload
+    block content
