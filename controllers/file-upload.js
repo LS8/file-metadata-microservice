@@ -1,4 +1,4 @@
-const fileSize = require('../helper/file-size');
+const fileSize = require('../helpers/file-size');
 module.exports = function(req, res) {
   const info = fileSize(req, res);
   res.render('size', {

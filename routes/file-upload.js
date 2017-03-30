@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const fileUpload = require('../controller/file-upload.js')
+const fileUpload = require('../controllers/file-upload.js')
 
 router.post('/filesize', fileUpload);
 router.get('*', (req, res) => {

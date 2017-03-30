@@ -1,6 +1,6 @@
 const chai = require('chai');
 const assert = chai.assert;
-const fileSize = require('../helper/file-size');
+const fileSize = require('../helpers/file-size');
 
 const passingTestfile = {
   files: [{
